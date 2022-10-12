@@ -96,8 +96,8 @@ const Header = () => {
   }, [open]);
 
   return (
-    <div className="navbar bg-white flex flex-col md:flex-row flex-wrap items-center justify-around md:justify-between">
-      <div className="flex flex-row mx-5">
+    <div className="navbar bg-white px-7 flex flex-col md:flex-row flex-wrap items-center justify-around md:justify-between">
+      <div className="flex flex-row">
         <span className="">
           <Image src="/gakuniq.png" width={50} height={50} alt="Gakuniq" />
         </span>
